@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../dist/main.css">
-</head>
+</head> 
 <body>
     <?php include './Include/header-black.php';?>
 
