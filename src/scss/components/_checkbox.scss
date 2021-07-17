@@ -1,0 +1,19 @@
+.check-box__component {
+	input[type=checkbox] {display: none;}
+	input[type=checkbox] + .check-box__inner {
+		display: inline-block;
+		cursor: pointer;
+		-webkit-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+
+		i{ display: inline-block; vertical-align: middle; color: #9E9E9E; }
+		span{ display: inline-block; vertical-align: middle; color: #000;}
+	}
+	input[type=checkbox]:checked + .check-box__inner {
+		.material-icons {
+			color: blue;
+		}
+	}
+}

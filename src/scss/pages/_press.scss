@@ -1,0 +1,166 @@
+// 모바일
+.fancybox-inner {
+    .fancybox-toolbar {
+        top: 80%;
+        left: 50%;
+        right: unset;
+        -webkit-transform: translate(-50%, -50%);
+           -moz-transform: translate(-50%, -50%);
+             -o-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+    
+        .fancybox-button--zoom {display: none !important;}
+    }
+}
+
+.press {
+    padding-top: 12%;
+    padding-bottom: 12%;
+    .wrapper {
+        padding-left: 16px;
+    }
+    h1 {font-weight: 100; line-height: 1;}
+    .press-inner {
+        margin-left: 5%;
+        padding-top: 10%;
+        overflow: hidden;
+        position: relative;
+
+        .item {
+            width: 100%;
+            padding-right: 20px;
+            a {
+                width: 100%;
+                
+            }
+            .press-desc {
+                padding-top: 28px;
+                padding-bottom: 55px;
+                p.m\:txt-xxxxxs {color: #757575; margin-top: 10px;}
+            }
+        }
+        .swiper-next {
+            position: absolute;
+            top: 50%;
+            right: 290px;
+            -webkit-transform: translate(0, -50%);
+               -moz-transform: translate(0, -50%);
+                 -o-transform: translate(0, -50%);
+                    transform: translate(0, -50%);
+            z-index: 2;
+            display: none;
+            .material-icons {font-size: 60px;}
+        }
+        .swiper-prev {
+            position: absolute;
+            top: 50%;
+            left: 320px;
+            -webkit-transform: translate(0, -50%);
+               -moz-transform: translate(0, -50%);
+                 -o-transform: translate(0, -50%);
+                    transform: translate(0, -50%);
+            z-index: 2;
+            display: none;
+            .material-icons {font-size: 60px;}
+        }
+    }
+    .pagination-inner {
+        position: relative;
+        .swiper-pagination {
+            bottom: 30px;
+        }
+    }
+}
+
+// 태블릿 sm
+@media(min-width:600px){
+    .press {
+        .wrapper {
+            padding-left: 24px;
+        }
+        .press-inner {
+            margin-left: 10%;
+
+            .item {
+                width: auto;
+                padding-right: 20px;
+                .press-desc {
+                    padding-top: 28px;
+                    padding-bottom: 90px;
+                }
+            }
+        }
+    }
+}
+// 태블릿 md
+@media(min-width:800px){
+    .press {
+        .press-inner {
+            margin-left: 15%;
+
+            .item {
+                .press-desc {
+                    padding-top: 28px;
+                    padding-bottom: 103px;
+                }
+            }
+        }
+    }
+}
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .fancybox-inner {
+        .fancybox-toolbar {
+            top: 77%;
+        }
+    }
+    .press {
+        .wrapper {
+            max-width: none;
+            padding-left: 40px;
+        }
+        padding-bottom: 7%;
+        h1 {font-weight: 100;}
+        .press-inner {
+            margin-left: 10%;
+            .item {
+                width: auto;
+
+                .press-desc {
+                    padding-top: 28px;
+                    padding-bottom: 126px;
+                }
+            }
+
+            .swiper-next {
+                display: block;
+            }
+            .swiper-prev {
+                display: block;
+            }
+        }
+    
+    }
+}
+
+// 데스크탑 md
+@media(min-width:1600px){
+    .press {
+        .wrapper {
+            padding-left: 60px;
+        }
+        h1 {font-weight: 100;}
+        .press-inner {
+            margin-left: 17%;
+            .item {
+                width: auto;
+                padding-right: 56px;
+                .press-desc {
+                    padding-top: 28px;
+                    padding-bottom: 126px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,50 @@
+@import "../helpers/variables";
+
+// 버튼 패딩 변수
+$px-sm: 0 24px;
+$px-md: 0 32px;
+$px-lg: 0 40px;
+
+.btn {
+	display: inline-block;
+    box-sizing: border-box;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	background-color: transparent;
+	color: #000;
+	cursor: pointer;
+	outline: none;
+	font-size: 14px; 
+}
+.btn-sm {
+	height: $sm;
+	padding: $px-sm;
+	line-height: $sm;
+}
+.btn-md {
+	height: $md;
+	padding: $px-md;
+	line-height: $md;
+}
+.btn-lg {
+	height: $lg;
+	padding: $px-lg;
+	line-height: $lg;
+}
+.btn-logo {
+	padding: 0;
+}
+.btn-nav {
+	padding: 0;
+	float: right;
+}
+
+.btn-block {
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.btn-b { background-color: #000; color: #fff;}
+.btn-w { background-color: #fff; color: #000; border: 1px solid #9E9E9E;}
+
+

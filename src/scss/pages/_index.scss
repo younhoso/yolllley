@@ -1,0 +1,118 @@
+// 모바일
+.index {
+    .wrapper {padding: 0;}
+    .index-tit {width: 320px; font-weight: 100; position: absolute; top: -297px;}
+    .items-section1{
+        margin-top: 10%;
+        .section-item {
+            padding: 0;
+            margin-bottom: 80px;
+            a {width: 100%; line-height: 40px; padding: 0;}
+            .desc {
+                margin-top: -30px;
+                padding: 0 16px;
+                box-sizing: border-box;
+
+                .desc__tit {font-weight: 100;}
+                .desc__txt--second {color: #757575; margin-top: 8px;}
+                .desc__items {
+                    .desc-item {
+                        padding: 0 2px;
+                    }
+                }
+            }
+        }
+    }
+
+    .items-section2{
+        .section-item {
+            padding: 0;
+            margin-bottom: 80px;
+            a {width: 100%; line-height: 40px; padding: 0;}
+            .desc {
+                margin-top: -30px;
+                padding: 0 16px;
+                box-sizing: border-box;
+
+                .desc__tit {font-weight: 100;}
+                .desc__txt--second {color: #757575; margin-top: 8px;}
+                .desc__items {
+                    .desc-item {
+                        padding: 0 2px;
+                    }
+                }
+            }
+        }
+        .section-item:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .button-innner {text-align: center; border-top: 1px solid #D8D8D8; padding: 35px 0;}
+}
+
+
+// 태블릿 sm
+@media(min-width:600px){
+    .index {
+        
+        .items-section1 {
+            margin-top: 4%;
+            margin-bottom: 3.3%;
+            .section-item {
+                padding: 0 2.2%;
+
+                a {width: 100%;}
+                .desc {
+                    margin-top: -20px;
+                    .desc__items {
+                        margin-top: 10px;
+                    }
+                }
+            }
+            >.section-item:nth-child(2) {margin-top: 25%;}
+        }
+
+        .items-section2 {
+            .section-item {
+                padding: 0 2.2%;
+
+                a {width: 100%;}
+                .desc {margin-top: -20px;}
+            }
+            >.section-item:nth-child(1) {margin-top: 6.8%;}
+        }
+    }
+}
+
+// 태블릿 md
+@media(min-width:800px){
+
+}
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .index {
+        .items-section1 {
+            .section-item {
+                a {width: 100%;}
+                .desc {margin-top: -30px;}
+            }
+        }
+
+        .items-section2 {
+            .section-item {
+                a {width: 100%;}
+                .desc {margin-top: -30px;}
+            }
+        }
+    }
+}
+
+// 데스크탑 md
+@media(min-width:1600px){
+   
+}
+
+
+
+

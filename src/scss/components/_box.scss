@@ -1,0 +1,15 @@
+.box-component {
+    .items {
+        .item {
+            a {
+                width: 100%;
+                .box-desc {
+                    margin-top: 20px;
+                    :nth-child(2) {color: #757575; margin-top: 5px;}
+                    .phone { font-family: 'Montserrat'; margin-top: 22px;}
+                    .email { font-family: 'Montserrat'; margin-top: 10px;}
+                }
+            }
+        }
+    }
+}

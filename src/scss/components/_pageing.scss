@@ -1,0 +1,34 @@
+// 모바일
+.pagination {
+    text-align: center;
+    margin-top: 11%;
+    margin-bottom: 14%;
+
+    .prev {
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    .pagination-number {
+        vertical-align: sub;
+    }
+    .next {
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+}
+
+// 태블릿 sm
+@media(min-width:600px){
+    .pagination {
+        margin-top: 4.8%;
+        margin-bottom: 6.6%;
+
+        .pagination-prev {
+            margin-right: 4.5%;
+        }
+        
+        .pagination-next {
+            margin-left: 4.5%;
+        }
+    }
+}

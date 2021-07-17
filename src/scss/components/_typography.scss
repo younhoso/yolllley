@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Noto+Sans+KR:100,300,400,500,700,900|Unna:400,400i,700,700i&display=swap');
+
+body { font-family:'Montserrat', 'Noto Sans KR', serif, sans-serif;}
+.unna {font-family: 'unna', serif;}
+
+// ==== tit component ====
+.m\:tit-xxxxxxs      { font-size: 12px; line-height: 1.2; }
+.m\:tit-xxxxxs       { font-size: 14px; line-height: 1.2; }
+.m\:tit-xxxxs        { font-size: 16px; line-height: 1.2; }
+.m\:tit-xxxs         { font-size: 18px; line-height: 1.2; } 
+.m\:tit-xxs          { font-size: 21px; line-height: 1.2; }
+.m\:tit-xs           { font-size: 24px; line-height: 1.2; }
+.m\:tit-sm           { font-size: 28px; line-height: 1.2; }
+.m\:tit-md           { font-size: 36px; line-height: 1.2; }
+.m\:tit-lg           { font-size: 40px; line-height: 1.2; }
+.m\:tit-xl           { font-size: 56px; line-height: 1.2; }
+.m\:tit-xxl          { font-size: 48px; line-height: 1.2; }
+.m\:tit-xxxl         { font-size: 60px; line-height: 1.2; }
+.m\:tit-xxxxl        { font-size: 66px; line-height: 1.2; }
+.m\:tit-xxxxxl       { font-size: 80px; line-height: 1.2; }
+
+@media(min-width:600px){
+    .t\:tit-xxxxxxs      { font-size: 12px; line-height: 1.2; }
+    .t\:tit-xxxxxs       { font-size: 14px; line-height: 1.2; }
+    .t\:tit-xxxxs        { font-size: 16px; line-height: 1.2; }
+    .t\:tit-xxxs         { font-size: 18px; line-height: 1.2; }
+    .t\:tit-xxs          { font-size: 21px; line-height: 1.2; }
+    .t\:tit-xs           { font-size: 24px; line-height: 1.2; }
+    .t\:tit-sm           { font-size: 28px; line-height: 1.2; }
+    .t\:tit-md           { font-size: 36px; line-height: 1.2; }
+    .t\:tit-lg           { font-size: 40px; line-height: 1.2; }
+    .t\:tit-xl           { font-size: 56px; line-height: 1.2; }
+    .t\:tit-xxl          { font-size: 48px; line-height: 1.2; }
+    .t\:tit-xxxl         { font-size: 60px; line-height: 1.2; }
+    .t\:tit-xxxxl        { font-size: 66px; line-height: 1.2; }
+    .t\:tit-xxxxxl       { font-size: 80px; line-height: 1.2; }
+}
+
+@media(min-width:1024px){
+    .d\:tit-xxxxxxs      { font-size: 12px; line-height: 1.2; }
+    .d\:tit-xxxxxs       { font-size: 14px; line-height: 1.2; }
+    .d\:tit-xxxxs        { font-size: 16px; line-height: 1.2; } 
+    .d\:tit-xxxs         { font-size: 18px; line-height: 1.2; } 
+    .d\:tit-xxs          { font-size: 21px; line-height: 1.2; }
+    .d\:tit-xs           { font-size: 24px; line-height: 1.2; }
+    .d\:tit-sm           { font-size: 28px; line-height: 1.2; }
+    .d\:tit-md           { font-size: 36px; line-height: 1.2; }
+    .d\:tit-lg           { font-size: 40px; line-height: 1.2; }
+    .d\:tit-xl           { font-size: 48px; line-height: 1.2; }
+    .d\:tit-xxl          { font-size: 56px; line-height: 1.2; }
+    .d\:tit-xxxl         { font-size: 60px; line-height: 1.2; }
+    .d\:tit-xxxxl        { font-size: 66px; line-height: 1.2; }
+    .d\:tit-xxxxxl       { font-size: 80px; line-height: 1.2; }
+}
+
+
+// ==== txt component ====
+.m\:txt-xxxxxs      { font-size: 14px; line-height: 1.2; }
+.m\:txt-xxxxs       { font-size: 16px; line-height: 1.2; }
+.m\:txt-xxxs        { font-size: 18px; line-height: 1.2; }
+.m\:txt-xxs         { font-size: 21px; line-height: 1.2; } 
+.m\:txt-xs          { font-size: 24px; line-height: 1.2; }
+.m\:txt-sm          { font-size: 28px; line-height: 1.2; }
+.m\:txt-md          { font-size: 40px; line-height: 1.2; }
+.m\:txt-lg          { font-size: 56px; line-height: 1.2; }
+.m\:txt-xl          { font-size: 48px; line-height: 1.2; }
+.m\:txt-xxl         { font-size: 60px; line-height: 1.2; }
+.m\:txt-xxxl        { font-size: 60px; line-height: 1.2; }
+.m\:txt-xxxxl       { font-size: 80px; line-height: 1.2; }
+
+@media(min-width:600px){
+    .t\:txt-xxxxxs       { font-size: 14px; line-height: 1.2; }
+    .t\:txt-xxxxs        { font-size: 16px; line-height: 1.2; }
+    .t\:txt-xxxs         { font-size: 18px; line-height: 1.2; } 
+    .t\:txt-xxs          { font-size: 21px; line-height: 1.2; }
+    .t\:txt-xs           { font-size: 24px; line-height: 1.2; }
+    .t\:txt-md           { font-size: 40px; line-height: 1.2; }
+    .t\:txt-sm           { font-size: 28px; line-height: 1.2; }
+    .t\:txt-lg           { font-size: 32px; line-height: 1.2; }
+    .t\:txt-xl           { font-size: 56px; line-height: 1.2; }
+    .t\:txt-xxl          { font-size: 48px; line-height: 1.2; }
+    .t\:txt-xxxl         { font-size: 60px; line-height: 1.2; }
+    .t\:txt-xxxxl        { font-size: 60px; line-height: 1.2; }
+    .t\:txt-xxxxxl       { font-size: 80px; line-height: 1.2; }
+}
+
+@media(min-width:1024px){
+    .d\:txt-xxxxxs      { font-size: 14px; line-height: 1.2; }
+    .d\:txt-xxxxs       { font-size: 16px; line-height: 1.2; }
+    .d\:txt-xxxs        { font-size: 18px; line-height: 1.2; } 
+    .d\:txt-xxs         { font-size: 21px; line-height: 1.2; }
+    .d\:txt-xs          { font-size: 24px; line-height: 1.2; }
+    .d\:txt-md          { font-size: 40px; line-height: 1.2; }
+    .d\:txt-sm          { font-size: 28px; line-height: 1.2; }
+    .d\:txt-lg          { font-size: 56px; line-height: 1.2; }
+    .d\:txt-xl          { font-size: 48px; line-height: 1.2; }
+    .d\:txt-xxl         { font-size: 60px; line-height: 1.2; }
+    .d\:txt-xxxl        { font-size: 60px; line-height: 1.2; }
+    .d\:txt-xxxxl       { font-size: 80px; line-height: 1.2; }
+}

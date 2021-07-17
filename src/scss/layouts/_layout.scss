@@ -1,0 +1,4 @@
+/*========= GRID SYSTEM =========*/
+.wrapper    { max-width: 1800px; margin: 0 auto; padding: 0 10px; box-sizing: border-box; -webkit-box-sizing: border-box; position: relative;}
+.row        {margin: 0 -10px; overflow: hidden;}
+.clearfix::after { content: ''; display: block; clear: both;}

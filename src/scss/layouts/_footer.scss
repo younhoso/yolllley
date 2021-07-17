@@ -1,0 +1,67 @@
+// 모바일
+.footer {
+    .wrapper {
+        max-width: none;
+        padding: 0;
+    }
+    border-top: 1px solid #E5E5E5;
+    margin: 10px 0 0 0;
+    .footer-inner {
+        margin: 40px 0 183px 0;
+        padding: 0 16px;
+        box-sizing: border-box;
+
+        .footer-tit {
+            a.m\:tit-sm {font-family: 'unna';}
+        
+
+            p {margin-bottom: 32px;}
+            p:last-child {
+                .footer-txt {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .footer {
+        .wrapper {
+            max-width: none;
+            padding: 0;
+        }
+        .footer-inner {
+            padding: 0 40px;
+            p{margin-bottom: 0; margin-bottom: 40px;}
+            p:last-child{margin-bottom: 0;}
+            .footer-tit{float: left;}
+            .footer-tit:last-child {
+                float: right;
+                margin-top: 90px;
+
+                span {display: block;}
+                .footer-txt {
+                    color: #BBBBBB;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+
+// 테블릿 sm
+@media(min-width:1600px){
+    .footer {
+        .wrapper{
+            max-width: none;
+            .footer-inner {
+                padding: 0 60px;
+            }
+        }
+    }
+}

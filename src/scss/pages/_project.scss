@@ -1,0 +1,75 @@
+// 모바일
+.project{
+    padding: 70px 0 124px 0;
+    .propslist-tit {
+        font-weight: 100;
+        padding-bottom: 50px;
+    }
+    .all-chacked {
+        margin-top: 50px;
+        label {color: #9E9E9E; font-family: 'Montserrat';}
+    }
+    .item {
+        border-bottom: 1px solid #9E9E9E;
+        padding: 20px 0;
+        .item__inner {
+            width: 100%;
+            display: table;
+            .item__inner--content {
+                vertical-align: middle;
+                display: table-cell;
+                div.check-box {
+                    display: inline-block; vertical-align:middle;
+                    label::before {
+                        margin-bottom: 7px;
+                    }
+                }
+                span {
+                    display: inline-block; vertical-align: middle; font-family: 'unna';
+                }
+                .txt-inner { 
+                    display: inline-block; vertical-align: middle;
+                    .item-txt {
+                        font-family: 'Montserrat';
+                        &:nth-child(2){color: #757575;}
+                    }
+                }
+            }
+            .item__inner--thumb {
+                width: 10%;
+                vertical-align: middle;
+                display: table-cell;
+            }
+        }
+    }
+    .button-innner {
+        padding: 35px 0;
+        div:nth-of-type(1){float: left;}
+        div:nth-of-type(2){float: right;}
+        button.btn {
+            width: 154px;
+
+        }
+    }
+}
+
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .project{
+        .item {
+            .item__inner {
+                .item__inner--content {
+                    .txt-inner { 
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+        .button-innner {
+            button.btn {
+                &:nth-of-type(2) {float: none;}
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+[class*="col-"] {
+	float: left;
+	box-sizing: border-box;
+	padding: 0 10px;
+}
+.col-fit {padding: 0;}
+
+// 모바일
+.m\:col-1\/12 {width: 8.33%;}
+.m\:col-2\/12 {width: 16.66%;}
+.m\:col-3\/12 {width: 25%;}
+.m\:col-4\/12 {width: 33.33%}
+.m\:col-5\/12 {width: 41.66%;}
+.m\:col-6\/12 {width: 50%;}
+.m\:col-7\/12 {width: 58.33%;}
+.m\:col-8\/12 {width: 66.66%;}
+.m\:col-9\/12 {width: 75%;}
+.m\:col-10\/12 {width: 83.33%;}
+.m\:col-11\/12 {width: 91.66%;}
+.m\:col-12\/12 {width: 100%;}
+
+.m\:col-1\/5 {width: 20%;}
+.m\:col-2\/5 {width: 40%;}
+.m\:col-3\/5 {width: 60%;}
+.m\:col-4\/5 {width: 80%;}
+
+// 태블릿 sm
+@media(min-width:600px){
+	.t\:col-1\/12 {width: 8.33%;}
+	.t\:col-2\/12 {width: 16.66%;}
+	.t\:col-3\/12 {width: 25%;}
+	.t\:col-4\/12 {width: 33.33%}
+	.t\:col-5\/12 {width: 41.66%;}
+	.t\:col-6\/12 {width: 50%;}
+	.t\:col-7\/12 {width: 58.33%;}
+	.t\:col-8\/12 {width: 66.66%;}
+	.t\:col-9\/12 {width: 75%;}
+	.t\:col-10\/12 {width: 83.33%;}
+	.t\:col-11\/12 {width: 91.66%;}
+	.t\:col-12\/12 {width: 100%;}
+
+	.t\:col-1\/5 {width: 20%;}
+	.t\:col-2\/5 {width: 40%;}
+	.t\:col-3\/5 {width: 60%;}
+	.t\:col-4\/5 {width: 80%;}
+}
+
+// 태블릿 md
+@media(min-width:1025px){
+	.d\:col-1\/12 {width: 8.33%;}
+	.d\:col-2\/12 {width: 16.66%;}
+	.d\:col-3\/12 {width: 25%;}
+	.d\:col-4\/12 {width: 33.33%}
+	.d\:col-5\/12 {width: 41.66%;}
+	.d\:col-6\/12 {width: 50%;}
+	.d\:col-7\/12 {width: 58.33%;}
+	.d\:col-8\/12 {width: 66.66%;}
+	.d\:col-9\/12 {width: 75%;}
+	.d\:col-10\/12 {width: 83.33%;}
+	.d\:col-11\/12 {width: 91.66%;}
+	.d\:col-12\/12 {width: 100%;}
+
+	.d\:col-1\/5 {width: 20%;}
+	.d\:col-2\/5 {width: 40%;}
+	.d\:col-3\/5 {width: 60%;}
+	.d\:col-4\/5 {width: 80%;}
+}
+
+// 태블릿 lG
+@media(min-width:1600px){
+	.dL\:col-1\/12 {width: 8.33%;}
+	.dL\:col-2\/12 {width: 16.66%;}
+	.dL\:col-3\/12 {width: 25%;}
+	.dL\:col-4\/12 {width: 33.33%}
+	.dL\:col-5\/12 {width: 41.66%;}
+	.dL\:col-6\/12 {width: 50%;}
+	.dL\:col-7\/12 {width: 58.33%;}
+	.dL\:col-8\/12 {width: 66.66%;}
+	.dL\:col-9\/12 {width: 75%;}
+	.dL\:col-10\/12 {width: 83.33%;}
+	.dL\:col-11\/12 {width: 91.66%;}
+	.dL\:col-12\/12 {width: 100%;}
+
+	.dL\:col-1\/5 {width: 20%;}
+	.dL\:col-2\/5 {width: 40%;}
+	.dL\:col-3\/5 {width: 60%;}
+	.dL\:col-4\/5 {width: 80%;}
+}

@@ -1,0 +1,155 @@
+// 모바일
+#ctt {
+    padding: 0;
+}
+.people {
+    .wrapper {max-width: none; padding: 0;}
+    padding-top: 12%;
+    .people-tit {
+        font-weight: 100;
+        font-family: 'unna';
+        line-height: 1;
+        padding-left: 16px;
+        br{display: none;}
+
+        span.people-sm-txt {
+            color: #757575;
+        }
+    }
+    .ceo{
+        padding: 18% 0 0 0;
+        .ceo-tit {
+            padding-left: 16px;
+        }
+        .people-ceo {
+            padding: 0 0 23px 0;
+            font-family: 'unna';
+        }
+        
+    }
+    .design {
+        .design-tit {
+            padding-left: 16px;
+        }
+        .people-design {
+            padding: 0 0 23px 0;
+            font-family: 'unna';
+        }
+    }
+    article.box-component {
+        padding: 0;
+         .items {
+             .item {
+                 padding: 0 2px 10% 2px;
+                 box-sizing: border-box;
+                 float: left;
+                 .wrapper {padding: 0;}
+             }
+         }
+     }
+     .item {
+         .box-desc {
+             padding: 0 15px;
+             box-sizing: border-box;
+             &:nth-child(1){font-family: 'unna',sans-serif;}
+             &:nth-child(2){font-family: 'unna',sans-serif;}
+         }
+     }
+}
+
+
+// 태블릿 sm
+@media(min-width:600px){
+    .people {
+        .people-tit {
+            padding-left: 24px;
+            br:nth-child(3){display: none;}
+            br:nth-child(5){display: none;}
+            span.people__tit {
+                display: inline-block;
+            }
+        }
+        .design {
+            .design-tit {
+                padding-left: 24px;
+            }
+        }
+    }
+}
+
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .people {
+        article.box-component {
+            padding-left: 10%;
+            display: table-cell;
+            .items {
+                .item {
+                    padding: 0 25px 10% 25px;
+                    box-sizing: border-box;
+                    float: left;
+                }
+            }
+        }
+        .people-tit {
+            width: 1248px;
+            padding-left: 40px;
+            br{display: inline-block;}
+             br:nth-child(3){display: inline-block;}
+            br:nth-child(5){display: inline-block;}
+        }
+        .ceo {
+            .wrapper{
+                width: 100%;
+                margin: 0;
+                display: table;
+                padding-left: 60px;
+                .ceo-tit {
+                    width: 20%;
+                    padding-left: 0;
+                    display: table-cell;
+                    vertical-align: top;
+                }
+            }
+        }    
+        .design {
+            .wrapper{
+                width: 100%;
+                display: table;
+                margin: 0;
+                padding-left: 60px;
+                    .design-tit {
+                        width: 20%;
+                        padding-left: 0;
+                        vertical-align: top;
+                        display: table-cell;
+                    }
+                    article.box-component {
+                        width: 100%;
+                        padding-left: 10%;
+                        display: table-cell;
+                    }
+            }
+        }    
+    }
+}
+
+// 데스크탑 md
+@media(min-width:1600px){
+    .people {
+        .people-tit {
+            width: auto;
+            padding-left: 60px;
+        }
+
+        article.box-component {
+            .items {
+                .item {
+                    padding: 0 40px 10% 40px;
+                }
+            }
+        }
+    }
+}
+

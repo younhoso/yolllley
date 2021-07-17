@@ -1,0 +1,168 @@
+//모바일
+.contactus{
+    .contactus-bg {
+        height: 360px; 
+        background: url('http://yolllley.triplexlab.co.kr/src/imgs/contactus.png') no-repeat center center;
+        background-size:cover;
+    }
+    .contactus-tit {
+        width: 270px;
+        font-weight: 100;
+        margin-top: -27px;
+        line-height: 1;
+        font-family: 'unna',sans-serif;
+        font-size: 40px;
+
+        span{
+            display: inline-block;
+            &:nth-child(2) {width: 310px;}
+        }
+    }
+   .contactus-txt{
+        font-family: 'Montserrat';
+        padding: 20px 0 32px 0;
+    }
+    .address {
+        padding: 40px 0 0 0;
+        h2 {font-weight: 100; margin-bottom: 20px; font-family: 'unna',sans-serif;}
+        p {
+            line-height: 1.7;
+            font-family: 'Montserrat';
+        }
+    }
+    .number {
+        padding: 40px 0 0 0;
+        h2 {font-weight: 100; margin-bottom: 20px; font-family: 'unna',sans-serif;}
+        span {
+            font-family: 'Montserrat';
+            &:last-child {margin-left: 20px;}
+        }
+    }
+
+    .info-components {
+        padding: 40px 0 80px 0;
+        
+        .info-inner {
+            margin: 20px 0;
+            > div {margin-top: 20px;}
+        }
+        h2 {font-weight: 100; margin-bottom: 20px; font-family: 'unna';}
+        textarea {
+            height: 240px;
+            vertical-align: top;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            color: #9E9E9E;
+            resize: none;
+        }
+       
+        
+        div.check-box {display: inline-block; padding-right: 20px; margin-bottom: 20px;}
+        .check-box__wrap {
+            padding-bottom: 20px;
+            .check-box__inner {
+                margin-right: 10px;
+                span {color: #9E9E9E;}
+            }
+        }
+        .btn-inner {
+            .btn {font-family: 'unna', sans-serif;}
+        }
+    }
+}
+
+// 태블릿 sm
+@media(min-width:600px){
+    .contactus {
+        .contactus-bg {
+            height: 337px;
+        }
+        .contactus-tit {
+            width: 100%;
+            margin-top: -35px;
+            font-size: 58px;
+            span {
+                display: block;
+                &:nth-child(2) {width: auto;}
+            }
+        }
+        .address {
+            p { 
+                br:nth-child(2) {display: none;}
+            }
+        }
+        .info-components { 
+            .info-inner {
+                > div  {
+                    width: 50%;
+                    float: left;
+                    box-sizing: border-box;
+                    margin-top: 0;
+                    &:nth-child(1){padding-right: 5px;}
+                    &:nth-child(2){padding-left: 5px;}
+                }
+            }
+            textarea {
+                height: 120px;;
+            }
+        }
+    }
+}
+
+
+// 태블릿 md
+@media(min-width:800px){
+    .contactus {
+        height: auto;
+        .contactus-tit {
+            font-size: 60px;
+            margin-top: -45px;
+        }
+    }
+}
+
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .contactus {
+        .contactus-tit {
+            font-size: 80px;
+        }
+        .contactus-bg {
+            height: 400px;
+        }
+       .contactus1-txt {
+            width: 354px;
+        }
+        .contactus-inner {
+            float: right;
+            .info-components {
+                width: 700px;
+
+                div.btn {
+                    width: 152px;
+                    height: 48px;
+                    line-height: 48px;
+                    float: right;
+                }
+
+                .btn-inner {
+                    text-align: right;
+                    .btn-block {width: auto; display: inline-block; padding: 0 60px;}
+                }
+            }
+        }  
+    }
+}
+
+// 데스크탑 md
+@media(min-width:1600px){
+    .contactus {
+        .contactus-bg {
+            height: 640px;
+        }
+       .wrapper {
+           padding: 0 200px;
+       }
+    }
+}

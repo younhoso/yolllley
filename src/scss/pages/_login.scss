@@ -1,0 +1,101 @@
+//모바일
+.login{
+    height: auto;
+    padding-bottom: 80px;
+    .login-bg {
+        height: 360px; 
+        background: url('http://yolllley.triplexlab.co.kr/src/imgs/login.png') no-repeat center center;
+        background-size:cover;
+    }
+    .login-tit {
+        width: 270px;
+        font-weight: 100;
+        margin-top: -27px;
+        line-height: 1;
+        font-family: 'unna', sans-serif;
+        font-size: 48px;
+        span{
+            display: inline-block;
+            &:nth-child(2) {width: 310px;}
+        }
+    }
+   .login-txt{
+        font-family: 'Montserrat';
+        padding: 20px 0 32px 0;
+    }
+    
+    .info-components {
+        input {margin-bottom: 20px;}
+        .info-inner {
+            p:nth-child(1){float: left;}
+            p:nth-child(2){float: right;}
+            a {padding: 0;}
+        }
+        .btn {font-family: 'unna', sans-serif;}
+    }
+}
+
+// 태블릿 sm
+@media(min-width:600px){
+    .login {
+        padding-bottom: 101px;
+        .login-bg {
+            height: 337px;
+        }
+        .login-tit {
+            width: 100%;
+            margin-top: -40px;
+            font-size: 56px;
+            span {
+                display: block;
+                &:nth-child(2) {width: auto;}
+            }
+        }
+    }
+}
+
+
+// 태블릿 md
+@media(min-width:800px){
+    .login {
+        padding-bottom: 120px;
+        .login-tit {
+            font-size: 60px;
+        }
+    }
+}
+
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .login {
+        height: auto;
+        padding-bottom: 6%;
+        .login-bg {
+            height: 400px;
+        }
+       .login1-txt {
+            width: 354px;
+            float: left;
+        }
+        .info-components {
+            width: 400px;
+            float: right;
+        }
+    }
+}
+
+// 데스크탑 md
+@media(min-width:1600px){
+    .login {
+        .login-bg {
+            height: 640px;
+        }
+       .wrapper {
+           padding: 0 200px;
+           .login-tit {
+            font-size: 80px;
+           }
+       }
+    }
+}

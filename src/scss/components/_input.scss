@@ -1,0 +1,38 @@
+@import "../helpers/variables";
+
+// 인풋 변수
+$px-sm: 0 14px;
+$px-md: 0 16px;
+$px-lg: 0 18px;
+
+.input {
+	display: inline-block;
+    box-sizing: border-box;
+	vertical-align: middle;
+	border: 1px solid #DEDEDE;
+	background-color: transparent;
+	color: #000;
+	outline: none;
+	font-size: 14px; 
+}
+
+.input-sm {
+	height: $sm;
+	padding: $px-sm;
+    line-height: $sm;
+}
+.input-md {
+	height: $md;
+	padding: $px-md;
+    line-height: $md;
+}
+.input-lg {
+	height: $lg;
+	padding: $px-lg;
+    line-height: $lg;
+}
+.input-block {
+    width: 100%;
+    display: block;
+}
+

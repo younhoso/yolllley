@@ -1,0 +1,109 @@
+// 모바일
+.aboutu {
+    height: auto;
+    margin-bottom: 70px;
+    .about-bg {
+        height: 320px; 
+        background: url('http://yolllley.triplexlab.co.kr/src/imgs/rectangle.png') no-repeat center center;
+        background-size:cover;
+    }
+    .aboutu-tit{
+        width: 310px;
+        font-weight: 100;
+        margin-top: -24px;
+        line-height: 1;
+        font-family: 'Unna';
+        br {
+            display: none;
+        }
+    }   
+    .aboutu-desc {
+        .aboutu-desc-tit {
+            margin:80px 0 29px 0;
+        }
+        .aboutu-desc-txt:nth-child(1) {
+            margin-bottom: 15px;
+            line-height: 1.75;
+        }
+        .aboutu-desc-txt:nth-child(2) {
+            margin-bottom: 16px;
+            line-height: 1.75;
+        }
+        .aboutu-desc-txt:nth-child(4) {
+            margin-bottom: 15px;
+            line-height: 1.75;
+        }
+        .aboutu-desc-txt:nth-child(5) {
+            margin-bottom: 16px;
+            line-height: 1.75;
+        }
+    }
+}
+
+
+// 태블릿 sm
+@media(min-width:600px){
+    .aboutu {
+        .about-bg {
+            height: 337px;
+        }
+        .aboutu-tit{
+            width: 600px;
+            margin-top: -34px;
+                br {
+                    display: inline;
+                }
+        }
+        .aboutu-desc {
+            width: 600px;
+            float: right;
+        }
+    }
+}
+// 태블릿 md
+@media(min-width:800px){
+    .aboutu {
+        .aboutu-tit{
+            width: auto;
+        }
+        .aboutu-desc {
+            width: 870px;
+            float: right;
+        }
+    }
+
+}
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .aboutu {
+        height: auto;
+        .wrapper {
+            padding: 0;
+        }
+        .about-bg {
+            height: 400px;
+        }
+        .aboutu-tit{
+            width: auto;
+            margin-top: -48px;
+        }
+        .aboutu-desc {
+            width: 870px;
+            float: right;
+            margin-top: 100px;
+
+            .aboutu-desc-tit { display: inline-block; vertical-align: top; margin: 0;}
+            .aboutu-desc-inner {width: 580px; display: inline-block; vertical-align: top; margin-left: 44px;}
+        }
+    }
+}
+// 데스크탑 md
+@media(min-width:1600px){
+    .aboutu {
+        height: auto;
+        .about-bg {
+            height: 640px;
+        }
+    }
+}

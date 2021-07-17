@@ -1,0 +1,90 @@
+//모바일
+.create {
+    padding-bottom: 10%;
+    .create-bg {
+        height: 320px; 
+        background: url('http://yolllley.triplexlab.co.kr/src/imgs/create.png') no-repeat center center;
+        background-size:cover;
+    }
+    .create-tit {
+        width: 270px;
+        font-weight: 100;
+        margin-top: -27px;
+        line-height: 1;
+        font-family: 'unna', sans-serif;
+        span{
+            display: inline-block;
+            &:nth-child(2) {width: 310px;}
+        }
+    }
+   .create-txt{
+        font-family: 'Montserrat';
+        padding: 20px 0 32px 0;
+    }
+    
+    .info-components {
+        input {margin-bottom: 20px;}
+        .info-inner {
+            p:nth-child(1){float: left;}
+            p:nth-child(2){float: right;}
+            a {padding: 0;}
+        }
+        .btn {font-family: 'unna', sans-serif;}
+    }
+}
+
+// 태블릿 sm
+@media(min-width:600px){
+    .create {
+        .create-bg {
+            height: 337px;
+        }
+        .create-tit {
+            width: 100%;
+            margin-top: -40px;
+            span {
+                display: block;
+                &:nth-child(2) {width: auto;}
+            }
+        }
+    }
+}
+
+
+// 태블릿 md
+@media(min-width:800px){
+    .create {
+        height: 100%;
+    }
+}
+
+
+// 데스크탑 sm
+@media(min-width:1024px){
+    .create {
+        .create-bg {
+            height: 400px;
+        }
+       .create-txt {
+            width: 354px;
+            float: left;
+        }
+        .info-components {
+            width: 345px;
+            float: right;
+            margin-top: 20px;
+        }
+    }
+}
+
+// 데스크탑 md
+@media(min-width:1600px){
+    .create {
+        .create-bg {
+            height: 640px;
+        }
+       .wrapper {
+           padding: 0 200px;
+       }
+    }
+}
